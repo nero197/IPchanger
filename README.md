@@ -9,7 +9,7 @@ Before using IPChanger, ensure you have Python 3.x installed on your system. You
 
     bash
 
-git clone https://github.com/yourusername/IPChanger.git
+git clone https://github.com/nero197/IPchanger.git
 cd IPChanger
 
 Set up a Python virtual environment (optional but recommended):
