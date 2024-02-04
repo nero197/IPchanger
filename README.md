@@ -44,7 +44,7 @@ Usage
 
 To use IPChanger, run:
 
-    python ipchanger.py
+    python3 ipchanger.py
 
 Ensure you have followed the configuration steps above to set up authentication with your Tor ControlPort.
 Contributing
