@@ -5,27 +5,17 @@ Installation
 
 Before using IPChanger, ensure you have Python 3.x installed on your system. You will also need to have Tor installed and properly configured.
 
-    Clone the repository:
-
-    bash
-
-git clone https://github.com/nero197/IPchanger.git
-cd IPChanger
+    Clone the repository: git clone https://github.com/nero197/IPchanger.git
+    cd IPChanger
 
 Set up a Python virtual environment (optional but recommended):
 
-bash
-
-python3 -m venv venv
-source venv/bin/activate
+    python3 -m venv venv
+    source venv/bin/activate
 
 Install required Python packages:
 
     pip install -r requirements.txt
-
-    Configure Tor:
-
-    Make sure Tor is installed on your system. For installation instructions, refer to the official Tor documentation.
 
 Configuration
 Authentication
@@ -34,9 +24,9 @@ To use IPChanger, you must configure the change_ip and terminate functions with 
 
 There are two recommended methods to authenticate with your ControlPort password:
 
-    Direct Input (Not Recommended): Directly insert your password in the controller.authenticate('your_password') line in both the change_ip and terminate functions. This method is not recommended due to security concerns with storing plain text passwords in scripts.
+Direct Input (Not Recommended): Directly insert your password in the controller.authenticate('your_password') line in both the change_ip and terminate functions. This method is not recommended due to security concerns with storing plain text passwords in scripts.
 
-    External File (More Secure): Store your password in an external file outside of your version control system (e.g., Git) and read it from your script. For example, create a file named .tor_auth and store your password there. Then, modify IPChanger to read the password from this file:
+External File (More Secure): Store your password in an external file outside of your version control system (e.g., Git) and read it from your script. For example, create a file named .tor_auth and store your password there. Then, modify IPChanger to read the password from this file:
 
     python
 
@@ -54,7 +44,7 @@ Usage
 
 To use IPChanger, run:
 
-python ipchanger.py
+    python ipchanger.py
 
 Ensure you have followed the configuration steps above to set up authentication with your Tor ControlPort.
 Contributing
