@@ -63,5 +63,3 @@ Contributions to IPChanger are welcome. Please ensure you follow best practices 
 License
 
 [License type] - Please specify the license under which this project is released, encouraging open and responsible use.
-
-Remember to replace placeholders (e.g., https://github.com/yourusername/IPChanger.git, your_password, [License type]) with actual values relevant to your project.
